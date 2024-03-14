@@ -12,38 +12,38 @@ const Header = (props) => {
                 <Navbar>
                     <li>
                         <img src="./images/home.png" alt="" />
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
                         <img src="./images/about.png" alt="" />
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
                         <img src="./images/skill.png" alt="" />
-                        <a href="#">Skills</a>
+                        <a href="#skill">Skills</a>
                     </li>
                     <li>
                         <img src="./images/project.png" alt="" />
-                        <a href="#">Project</a>
+                        <a href="#project">Project</a>
                     </li>
                     <li>
                         <img src="./images/contact.png" alt="" />
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </Navbar>
                 <SoicalIcon>
                     <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/devanshi-jodhani-5a31b324b/">
                             <img src="./images/linkedin.png" alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://twitter.com/devanshi_4505">
                             <img src="./images/x.png" alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://github.com/DevanshiJodhani">
                             <img src="./images/github.png" alt="" />
                         </a>
                     </li>
@@ -190,6 +190,8 @@ const SoicalIcon = styled.div`
     
     margin-top: 500px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     li{
         list-style: none;
@@ -202,7 +204,7 @@ const SoicalIcon = styled.div`
         border-radius: 15px;
 
         &:hover{
-            background-color: #ffffff15;
+            background-color: #ffffff25;
         }
     }
     img{
