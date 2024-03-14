@@ -57,6 +57,10 @@ const Container = styled.div`
         margin-left: 75px;
         width: 300px;
     }
+
+    @media (max-width: 450px){
+        width: 250px;
+    }
 `;
 
 const Content = styled.div`
@@ -71,6 +75,7 @@ const Content = styled.div`
         flex-direction: column;
         gap: 45px;
     }
+    
     
 
 `;
@@ -114,6 +119,17 @@ const Info = styled.div`
         }
         p{
             font-size: 12px;
+        }
+    }
+    @media (max-width: 450px){
+        h1{
+
+            h4{
+                font-size: 20px;
+            }
+        }
+        p{
+            font-size: 11px;
         }
     }
 `;
@@ -166,6 +182,20 @@ const Button = styled.div`
             img{
                 margin-left: 8px;
                 padding: 5px;
+            }
+        }
+    }
+
+    @media (max-width: 450px){
+        li{
+            margin-top: 8px;
+            padding: 3px;
+            a{
+                padding: 5px 8px;
+            }
+            img{
+                padding: 3px;
+                width: 20px;
             }
         }
     }
