@@ -33,17 +33,17 @@ const Header = (props) => {
                 </Navbar>
                 <SoicalIcon>
                     <li>
-                        <a href="https://www.linkedin.com/in/devanshi-jodhani-5a31b324b/">
+                        <a href="https://www.linkedin.com/in/devanshi-jodhani-5a31b324b/" target="_blank">
                             <img src="./images/linkedin.png" alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/devanshi_4505">
+                        <a href="https://twitter.com/devanshi_4505" target="_blank">
                             <img src="./images/x.png" alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/DevanshiJodhani">
+                        <a href="https://github.com/DevanshiJodhani" target="_blank">
                             <img src="./images/github.png" alt="" />
                         </a>
                     </li>
