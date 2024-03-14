@@ -59,3 +59,12 @@ p {
       transform: translateY(-10vh)scale(0.4);
   }
 }
+
+@keyframes rotate{
+  from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}

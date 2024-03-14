@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Header from "./Header";
+import Home from "./Home";
 
-const Home = (props) => {
+const Main = (props) => {
     return (
         <Container>
             <Background>
@@ -91,7 +92,7 @@ const Home = (props) => {
                 </Square>
             </Background>
             <Header />
-            
+            <Home />
         </Container>
     )
 }
@@ -136,4 +137,4 @@ const Content = styled.div``;
 
 
 
-export default Home;
+export default Main;
