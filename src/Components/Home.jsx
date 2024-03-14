@@ -128,9 +128,7 @@ const Info = styled.div`
                 font-size: 20px;
             }
         }
-        p{
-            font-size: 11px;
-        }
+        
     }
 `;
 
