@@ -142,7 +142,7 @@ const Navbar = styled.div`
         border-radius: 15px;
 
         &:hover{
-            background-color: #ffffff15;
+            background-color: #ffffff25;
         }
 
         a{
