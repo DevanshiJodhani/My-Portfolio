@@ -73,8 +73,8 @@ const Content = styled.div`
     }
     
     @media (max-width: 550px) {
-        padding: 40px 10px;   
-        width: 60px;
+        padding: 40px 5px;   
+        width: 55px;
     }
 `;
 
@@ -118,12 +118,12 @@ const Logo = styled.div`
     }
 
     @media (max-width: 550px) {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
 
         a{
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
         }
     }
 `;
@@ -169,10 +169,11 @@ const Navbar = styled.div`
 
     @media (max-width: 550px) {
         margin-top: 30px;
+        
         &::before{
         content: '';
         position: absolute;
-        width: 80px;
+        width: 70px;
         height: 1px;
         background: #ffffff44;
         bottom:0;
@@ -180,6 +181,9 @@ const Navbar = styled.div`
     }
             a {
                 display: none;
+            }
+            img{
+                width: 18px;
             }
 
             

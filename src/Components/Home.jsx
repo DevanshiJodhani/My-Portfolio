@@ -59,7 +59,7 @@ const Container = styled.div`
     }
 
     @media (max-width: 450px){
-        width: 250px;
+        width: 200px;
     }
 `;
 
@@ -128,6 +128,9 @@ const Info = styled.div`
                 font-size: 20px;
             }
         }
+        p{
+            font-size: 11px;
+        }
         
     }
 `;
@@ -185,8 +188,10 @@ const Button = styled.div`
     }
 
     @media (max-width: 450px){
+        display: flex;
+        flex-direction: column;
         li{
-            margin-top: 8px;
+            margin-top: 15px;
             padding: 3px;
             a{
                 padding: 5px 8px;
@@ -214,7 +219,7 @@ const Img = styled.div`
     }
     @media (max-width: 450px){
         img{
-            width: 150px;
+            width: 120px;
         }
     }
 `;
