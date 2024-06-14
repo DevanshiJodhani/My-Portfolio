@@ -21,7 +21,7 @@ const Project = (props) => {
           </Wrap>
           <Btn>
             <a
-              href="https://github.com/DevanshiJodhani/Disney-Clone"
+              href="https://github.com/DevanshiJodhani/Natours"
               target="_blank"
             >
               <i className="bx bxl-github"></i>
