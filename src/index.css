@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/* seconde bg color:- 112e42 
+  ,main-color:- 00abf0
+*/
+body{
+  background: #081b29;
+  color: #ededed;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}

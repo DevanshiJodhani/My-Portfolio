@@ -1,0 +1,38 @@
+{
+  "project": {
+    
+    "6": {
+        "title": "Blog App",
+      "description": "I have created a Blog App using React.js with the Vite framework, Appwrite, and Tailwind CSS.",
+      "image": "",
+      "GithubLink": "https://github.com/DevanshiJodhani/Blog-App",
+      "WebsiteLink": "",
+      "type": "data"
+    },
+    "7": {
+        "title": "Dictionary App",
+      "description": "I have created a Dictionary App using HTML, CSS, and JavaScript.",
+      "image": "",
+      "GithubLink": "https://github.com/DevanshiJodhani/Dictionary-App",
+      "WebsiteLink": "",
+      "type": "data"
+    },
+    "8": {
+        "title": "Weather App",
+      "description": "I have created a Weather App using HTML, CSS and JavaScript with API integration.",
+      "image": "",
+      "GithubLink": "https://github.com/DevanshiJodhani/Weather-App",
+      "WebsiteLink": "",
+      "type": "data"
+    },
+    "9": {
+        "title": "Country Information App",
+      "description": "I have created a Country Information App using HTML, CSS, and JavaScript with API integration.",
+      "image": "",
+      "GithubLink": "https://github.com/DevanshiJodhani/Country-Information-App",
+      "WebsiteLink": "",
+      "type": "data"
+    }
+    
+  }
+}
