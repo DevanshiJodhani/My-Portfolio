@@ -39,7 +39,7 @@ const Home = (props) => {
           </SocialLinks>
         </Content>
         <HomeContainer>
-          <img src="./images/my.jpg" alt="" />
+          <img src="./images/My-pic.jpg" alt="" />
         </HomeContainer>
       </Container>
       <Project />
