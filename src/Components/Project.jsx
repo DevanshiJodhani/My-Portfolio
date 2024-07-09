@@ -201,7 +201,27 @@ const Project = (props) => {
             </a>
           </Btn>
         </Box>
-        
+        <Box>
+          <Wrap>
+            <ImgBox>
+              <img src="./images/Weather.png" alt="Weather App" />
+            </ImgBox>
+            <Description>
+            I have created a small news website using React.js with vite frame work, Node.js.
+            </Description>
+          </Wrap>
+          <Btn>
+            <a
+              href="https://github.com/DevanshiJodhani/FastNews-newsApp"
+              target="_blank"
+            >
+              <i className="bx bxl-github"></i>
+            </a>
+            <a href="#">
+              <i className="bx bx-link-external"></i>
+            </a>
+          </Btn>
+        </Box>
       </Content>
       
     </Container>
