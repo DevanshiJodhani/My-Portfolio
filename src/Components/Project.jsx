@@ -204,7 +204,7 @@ const Project = (props) => {
         <Box>
           <Wrap>
             <ImgBox>
-              <img src="./images/Weather.png" alt="Weather App" />
+              <img src="./images/FastNews.png" alt="Weather App" />
             </ImgBox>
             <Description>
             I have created a small news website using React.js with vite frame work, Node.js.
